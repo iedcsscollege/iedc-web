@@ -1,0 +1,267 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+/* nav bar */
+
+.logo-nav{
+    height: 60px;
+    width: 70px;
+  }
+  .container{
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
+  }
+  .nav-item{
+    padding-left: 2rem;
+  }
+  .nav-link{
+    color: #7f3b9e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    border-radius: 10px;
+  }
+  .nav-link:hover{
+   
+    color: #7f3b9e;
+    border-bottom: 2px solid #bf4da6 ;
+   
+    box-shadow: 2px 2px 5px #bf4da6;
+  }
+
+
+  
+  
+section{
+    /* background-image: url(images-team/team-back.png); */
+    background-repeat:repeat;
+    
+}
+
+#team-main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+}
+.main-div{
+    width: 100%;
+    margin: 0%;
+}
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    /* background:linear-gradient(30deg,#7d3b9e,#d499cb) */
+    
+}
+.div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.div-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.head-main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url(images-team/Group\ 15BANNER.svg);
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.head-main1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(images-team/Group\ 15BANNER.svg);
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+.head-1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    text-shadow: black;
+}
+
+/* card section */
+
+.card{
+    position: relative;
+    width: 280px;
+    height: 190px;
+    background:#421b95;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0, 0,0,0,15);
+    transition: 0.5s;
+
+}
+.card:hover{
+    height: 350px;
+    transition: 0.5s;
+}
+.imgbx{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgb(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    
+
+}
+
+
+.imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover .imgbx{
+    width: 170px;
+    height: 170px;
+    
+}
+.card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    
+}
+.card .content .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform:translateY(80px);
+    position: absolute;
+}
+.card:hover .content .details{
+    transform: translateY(0px);
+}
+
+
+.card .content .details h2{
+    font-size: 1.25em;
+    font-weight: 600;
+    color:white;
+    line-height: 1.3em;
+}
+.card .content .details h2 span{
+    font-size: 0.75em;
+    opacity: .6;
+    font-weight: 500;
+
+}
+
+.card .content .details .actionbtn{
+ display: flex;
+ justify-content: space-between;
+ /* gap: 20px; */
+}
+
+.card .content .details .actionbtn button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: .9em;
+    font-weight: 500;
+    background:#7d3b9e;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.card .content .details .actionbtn button:nth-child(2){
+    border: 1px solid #7d3b9e;
+    color: #7d3b9e;
+    background: #fff;
+}
+.card .content .details .actionbtn button:hover{
+    background-color: #fff;
+    color: #7d3b9e;
+    border: 1px solid #7d3b9e;
+    transition: .5s;
+}
+.card .content .details .actionbtn button:nth-child(2):hover{
+    background: #7d3b9e;
+    color: #fff;
+}
+
+/* responsive */
+@media (max-width: 700px) {
+    .head-1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        text-shadow: black;
+    } 
+
+    .head-main{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-image: url(images-team/Group\ 15BANNER.svg);
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+    }
+    .head-main1{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-image: url(images-team/Group\ 15BANNER.svg);
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(165, 161, 161);
+
+}
+a:hover{
+    color: black;
+}
