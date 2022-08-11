@@ -117,3 +117,11 @@ body
     background: dodgerblue;
     color: white;
   }
+
+
+  @media (max-width:700px) {
+
+    .row{
+      margin-right: 3rem;
+    }
+  }
