@@ -1,5 +1,5 @@
 # iedc-web 🔥🔥
-- this is a college club website created for IEDC Sullamussalam areekode college..
+- This is a college club website created for IEDC Sullamussalam areekode college..
 - You can visit it through👉 https://iedcsscollege.github.io
 ![Screenshot 2022-08-15 202414](https://user-images.githubusercontent.com/86095752/184659564-7048d129-8931-4c32-b864-5923d70a1fce.png)
 -![Screenshot 2022-08-15 202834](https://user-images.githubusercontent.com/86095752/184660296-4ca86433-43ca-462b-863f-bf166fc21a52.png)
