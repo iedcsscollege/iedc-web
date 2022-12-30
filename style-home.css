@@ -227,8 +227,15 @@ body{
         margin-bottom: 7rem;
         position: relative;
         bottom: 3rem;
+        
 
         
+     }
+     .iccons i{
+       
+        color: #cac4cc;
+        
+       
      }
 
      .head-1{
